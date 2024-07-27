@@ -1,0 +1,17 @@
+#The minimum amount of leather dropped by cows and mooshrooms.
+#Range: 0 ~ 4
+"Extra leather drops" = 2
+#If enabled, bundles are craftable with rabbit hide.
+"Hide bundles" = true
+#If enabled, bundles are craftable with leather.
+"Leather bundles" = true
+#The percentage of leather armor durability given as bonus durability when using an armor kit.
+#Range: 0.0 ~ 1.0
+"Armor kit bonus" = 0.5
+#The percentage of leather armor durability given as an additive bonus when using armor kits in a smithing table.
+#Range: 0.0 ~ 1.0
+"Armor kit smithing bonus" = 0.5
+#The percentage of durability armor kits repair when applied with a smithing table.
+#Range: 0.0 ~ 0.25
+"Armor kit repair" = 0.15
+

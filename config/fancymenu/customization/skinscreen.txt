@@ -1,0 +1,101 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.SkinCustomizationScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_data/secondarymenusbackground.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505190%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=345190%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=505166%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=345166%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=345262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=505238%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=345238%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=505214%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxlhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+
+customization {
+  identifier = %id=345214%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
+}
+

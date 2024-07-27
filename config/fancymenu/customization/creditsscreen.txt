@@ -1,0 +1,47 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.CreditsAndAttributionScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_data/secondarymenusbackground.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=39594%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnlargehover.png
+  backgroundnormal = fancymenu_data/Buttons/btnlarge.png
+}
+
+customization {
+  identifier = %id=39566%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnlargehover.png
+  backgroundnormal = fancymenu_data/Buttons/btnlarge.png
+}
+
+customization {
+  identifier = %id=395122%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnlargehover.png
+  backgroundnormal = fancymenu_data/Buttons/btnlarge.png
+}
+

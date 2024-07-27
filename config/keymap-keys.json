@@ -1,0 +1,282 @@
+{
+  "keys.vampirism.action2": {
+    "keyCode": 50,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.walkers": {
+    "keyCode": 47,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "keys.vampirism.action3": {
+    "keyCode": 51,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.goety.lich.magnet": {
+    "keyCode": 82,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.dragon_strike": {
+    "keyCode": 257,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.goety.witch.brewCircle": {
+    "keyCode": 93,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.socialInteractions": {
+    "keyCode": 73,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.ars_nouveau.open_book": {
+    "keyCode": 79,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.ars_nouveau.previous_slot": {
+    "keyCode": 267,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.journeymap.fullscreen.disable_buttons": {
+    "keyCode": 72,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.goety.lich.lichForm": {
+    "keyCode": 47,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "keys.vampirism.action": {
+    "keyCode": 46,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "iris.keybind.shaderPackSelection": {
+    "keyCode": 79,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.goety.witch.extractPotions": {
+    "keyCode": 69,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.hide_icons": {
+    "keyCode": 72,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.journeymap.minimap_toggle_alt": {
+    "keyCode": 74,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.ars_nouveau.next_slot": {
+    "keyCode": 266,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.walkers_ability": {
+    "keyCode": 46,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "keys.vampirism.action1": {
+    "keyCode": 49,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.spells_and_shields.key.radial_menu": {
+    "keyCode": 70,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.voice_chat": {
+    "keyCode": 84,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.ars_nouveau.selection_hud": {
+    "keyCode": 348,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.jade.show_details": {
+    "keyCode": 340,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": true,
+    "ctrl": false
+  },
+  "keys.vampirism.select_ammo": {
+    "keyCode": 67,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.goety.bag": {
+    "keyCode": 67,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.goety.witch.robe": {
+    "keyCode": 86,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "supplementaries.keybind.quiver": {
+    "keyCode": 86,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "keybind.sophisticatedbackpacks.open_backpack": {
+    "keyCode": 66,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.occultism.backpack": {
+    "keyCode": 66,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.securitycraft.cameraActivateNightVision": {
+    "keyCode": 78,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
+  },
+  "key.occultism.storage_remote": {
+    "keyCode": 78,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.disable_voice_chat": {
+    "keyCode": 96,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.journeymap.fullscreen_waypoints": {
+    "keyCode": 78,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.goety.lich.nightVision": {
+    "keyCode": 59,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "create.keyinfo.toolbelt": {
+    "keyCode": 49,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "keu.l2mods.alt": {
+    "keyCode": 50,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "create.keyinfo.toolmenu": {
+    "keyCode": 51,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "railways.keyinfo.bogey_menu": {
+    "keyCode": 52,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "railways.keyinfo.cycle_menu": {
+    "keyCode": 53,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": false,
+    "ctrl": true
+  },
+  "key.drop": {
+    "keyCode": 81,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  }
+}

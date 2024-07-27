@@ -1,0 +1,366 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = panorama9
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnmediumhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnmedium.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-right
+  x = -375
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnaccessiblehover.png
+  backgroundnormal = fancymenu_data/Buttons/btnaccessible.png
+}
+
+customization {
+  identifier = %id=352322%
+  orientation = mid-right
+  x = -374
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=352322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnsmallhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnsmall.png
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-right
+  x = -349
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=376322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnsmallhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnsmall.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnmediumhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnmedium.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = false
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnmediumhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnmedium.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-right
+  x = -350
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnlanguagehover.png
+  backgroundnormal = fancymenu_data/Buttons/btnlanguage.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -49
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnmediumhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnmedium.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = 1
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/Buttons/btnmediumhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnmedium.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = -239
+  action = movebutton
+  y = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 3a1cf44e-6a59-40f7-aa4e-2c8030354c7a1721809244384
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 128
+  action = deep_customization_element:title_screen_branding
+  actionid = 2704b6be-245c-4ae2-9f33-701396d872d11721809244392
+  y = 223
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 251
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = b0afd0ed-b624-42d4-a4d6-09b81eb35f6d1721809244392
+  y = 245
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 597e471e-a5b2-4ca0-bc7b-a1a80f377b951721809244392
+  y = 166
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = f468ab07-ff31-4fd7-bc29-8d5905606eb61721809244392
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-right
+  splash_color = #efc88f
+  hidden = false
+  x = -170
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 51ec2167-082c-4b00-9f17-0a81eb0a30d81721809244392
+  y = 219
+  height = 30
+}
+
+customization {
+  path = fancymenu_data/logominecraftcouleur.png
+  orientation = top-centered
+  x = -55
+  width = 110
+  action = addtexture
+  actionid = 695568a4-4448-43fd-b7a5-e5ca25f16b941721827540941
+  y = -8
+  height = 110
+}
+
+customization {
+  path = fancymenu_data/logo.png
+  orientation = mid-centered
+  x = -86
+  width = 175
+  action = addtexture
+  actionid = 12b98d33-e695-454d-b37e-daa7bdc2e51c1721827966211
+  y = -79
+  height = 175
+}
+
+customization {
+  [loading_requirement:fancymenu_loading_requirement_is_window_height_bigger_than][requirement_mode:if][req_id:477bed28-5a84-47d8-bd03-a5b0327650a71721996704910] = 700
+  audio_source:4fa5f10a-7596-4377-aac4-1a893058e1301721843336399 = fancymenu_data/music/Dramaticaly steampunk.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:f032a222-5087-4309-a1e0-d444f5313c1e1721997443542 = fancymenu_data/music/Clockwork Heart.ogg;EXTERNAL_LOCAL;60;0
+  channel = music
+  audio_source:9a833bd5-d137-4a02-a3a3-cdea407a5a1e1721997600995 = fancymenu_data/music/The blood waltz.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:481b933b-9813-4c7c-90c7-fcdb9dccb0271721997571227 = fancymenu_data/music/Sunset.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:39fd0ed9-4726-46a9-b9e3-3ce7d20237371721997543706 = fancymenu_data/music/Sailing the seas.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:c2506320-0595-4deb-ad36-773df1d5d9e21721844688795 = fancymenu_data/music/Steampunk Dreams.ogg;EXTERNAL_LOCAL;60;0
+  loop = true
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 1c449aa6-20e4-4e05-87f5-456b1813d59b1721843303243
+  audio_source:c7f8413e-15c6-49d3-8866-0cc28d2d21f21721997388658 = fancymenu_data/music/An underman and a villager.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:81b12313-c613-41f8-bd3f-687c48214a0d1721997617584 = fancymenu_data/music/The lone inventor.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:038aff87-2bed-47db-b256-34ad2b11495a1721997532539 = fancymenu_data/music/Rainy days.ogg;EXTERNAL_LOCAL;60;0
+  height = 26
+  orientation = top-left
+  audio_source:370517ae-87bf-40cf-99de-5790cce0ef981721997719079 = fancymenu_data/music/Vampire Awaken.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:d90a753a-6f57-4e50-bdde-93b7962c27181721997693835 = fancymenu_data/music/Timeless Echoes.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:d0b13bf0-5a87-4c22-ad09-e719e5e5f82a1721844673081 = fancymenu_data/music/Rust and coal.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:f2591273-539e-4b31-b1a2-f6c7b432dc631721844699987 = fancymenu_data/music/Time waltz.ogg;EXTERNAL_LOCAL;60;0
+  [loading_requirement:fancymenu_loading_requirement_is_window_width_bigger_than][requirement_mode:if][req_id:23fb5087-b088-4892-ba3a-860d92c951ec1721996545759] = 1800
+  audio_source:a070322d-d362-4320-b274-0b1850df36531721843645033 = fancymenu_data/music/Copper Swing.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:b23f8c39-a11f-4d62-84f3-8b6ddc2600d31721997489430 = fancymenu_data/music/Illagers.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:3422329f-e1a7-41d9-967c-22cb8b8b1beb1721997502473 = fancymenu_data/music/Lava.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:51cbd7a7-5553-4eef-804a-e8226334f8911721997416949 = fancymenu_data/music/Blocky Dreams.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:3907199d-a5b4-440b-a65f-8cf78b24d8051721997457285 = fancymenu_data/music/Gears of Time.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:3d59a990-3d95-4fb2-90e0-4d1a0b709dfe1721997514727 = fancymenu_data/music/Mechanical Dreams.ogg;EXTERNAL_LOCAL;60;0
+  audio_source:a5d015f7-25fa-46ee-ad7a-ed5ce46402091721997559788 = fancymenu_data/music/Snow.ogg;EXTERNAL_LOCAL;60;0
+  x = 416
+  width = 26
+  y = 78
+  once_per_session = false
+  audio_source:a249e9fd-4068-47cc-8b5a-6fb2985044b31721997708564 = fancymenu_data/music/Undermen.ogg;EXTERNAL_LOCAL;60;0
+}
+
