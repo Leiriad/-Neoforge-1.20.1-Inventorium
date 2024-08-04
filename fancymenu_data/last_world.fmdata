@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/Bzami/AppData/Roaming/com.modrinth.theseus/profiles/[Neoforge] Biotechnica prequel/saves/Nouveau monde (2)
+  is_server = true
+  world = 91.197.6.168:25741
 }
 
