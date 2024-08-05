@@ -39,9 +39,6 @@ net.minecraft.client.gui.screens.LanguageSelectScreen {
 net.minecraft.client.gui.screens.ChatOptionsScreen {
 }
 
-net.minecraft.client.gui.screens.packs.PackSelectionScreen {
-}
-
 net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen {
 }
 
