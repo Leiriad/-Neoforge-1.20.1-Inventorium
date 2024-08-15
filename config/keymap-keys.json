@@ -278,5 +278,19 @@
     "alt": false,
     "shift": true,
     "ctrl": false
+  },
+  "keys.vampirism.select_skills": {
+    "keyCode": 80,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.showstats.desc": {
+    "keyCode": 75,
+    "keyType": "KEYBOARD",
+    "alt": true,
+    "shift": false,
+    "ctrl": false
   }
 }
