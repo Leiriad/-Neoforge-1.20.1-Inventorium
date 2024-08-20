@@ -43,6 +43,13 @@ _version = 2
 			# NOTE:
 			# Before changing this config, try changing the "GPU Upload method" first.
 			gpuUploadPerMegabyteInMilliseconds = 0
+			# If true geometry data will be uploaded on a DH controlled thread, reducing FPS stuttering. 
+			# If false uploading will be done on Minecraft's main rendering thread. 
+			# 
+			# Setting this to false may reduce crashes or corrupted geometry on systems with an AMD GPU when Sodium is installed.
+			# 
+			# 
+			gpuUploadAsync = true
 
 		[client.advanced.lodBuilding]
 			#
@@ -101,6 +108,10 @@ _version = 2
 			# Increasing this value will reduce CPU load but may may cause 
 			# LODs to become outdated more frequently or for longer.
 			minTimeBetweenChunkUpdatesInSeconds = 1
+			# Determines if a message should be displayed in the chat when LOD migration starts. 
+			# 
+			# 
+			showMigrationChatWarning = true
 
 		[client.advanced.autoUpdater]
 			#

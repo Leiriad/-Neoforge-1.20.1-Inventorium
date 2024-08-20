@@ -183,6 +183,8 @@
 	#How much Souls is consumed when crafting with Totem, Default: 1
 	#Range: > 0
 	craftSouls = 1
+	#If soulRepair is enabled, the cost of Soul Energy multiplies per item's enchantments, Default: true
+	soulRepairEnchant = true
 
 ["Tools & Weapons"]
 

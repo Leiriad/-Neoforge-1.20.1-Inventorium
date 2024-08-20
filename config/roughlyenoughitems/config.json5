@@ -4,7 +4,7 @@
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": "WHEN_CREATIVE",
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -60,8 +60,7 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}",
-				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}"
 			],
 			"filteringQuickCraftCategories": { },
 			"filteredStacks": []
@@ -103,7 +102,7 @@
 			// Declares whether search time should be debugged.
 			"debugSearchTimeRequired": false,
 			// Declares whether REI should search async.
-			"asyncSearch": true,
+			"asyncSearch": false,
 			// Declares how many entries should be grouped one async search.
 			"asyncSearchPartitionSize": 100,
 			"patchAsyncThreadCrash": true,
@@ -163,7 +162,7 @@
 		// Declares whether mob effects should be on the left side instead of the right side.
 		"leftSideMobEffects": false,
 		// Declares whether subsets is enabled.
-		"isSubsetsEnabled": false,
+		"isSubsetsEnabled": true,
 		"allowInventoryHighlighting": true,
 		"itemCheatingMode": "REI_LIKE"
 	}

@@ -47,6 +47,10 @@
 	#The amount of Soul Energy used up to repair Items per the configured amount of seconds, Default: 1
 	#Range: > 0
 	soulMenderCost = 1
+	#Whether creating items through Rituals will transfer enchantments from the original item, Default: true
+	ritualCraftEnchant = true
+	#Whether creating items through Rituals will transfer damage from the original item, Default: false
+	ritualCraftDamage = false
 
 ["Soul Taken"]
 	#Animals Killed, Default: 5
@@ -117,6 +121,8 @@
 	lichDamageHelmet = true
 	#Enable to get infinite Night Vision when being a Lich, Default: true
 	lichNightVision = true
+	#Whether players lose their lichdom if their Arca is removed, Default: true
+	lichArcaRemove = true
 
 [General]
 	#Arca will save the Player if past Totem Maximum Soul Count, Default: true
