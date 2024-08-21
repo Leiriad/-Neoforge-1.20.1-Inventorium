@@ -28,3 +28,22 @@ Inventorium Key Features:
 
 I made this project for personal use in the first place, but I'm happy if you enjoy it or even want to contribute. Feel free to ask for new things too. 
 I would only ask that the images (icons, logo, buttons, disks...) and the name of the modpack remain mine.
+
+Optional:
+
+I play this modpack with the additional copyrighted mods:
+- Capybara 1.8.7 https://modrinth.com/mod/capybaras/versions
+- Fabulous flowers 1.1.0 (forge-1.20.1) https://www.curseforge.com/minecraft/mc-mods/fabulous-flowers/files/all?page=1&pageSize=20&version=1.20.1
+- Flower Seeds 2 - Fabulous Flowers 1.1.2 https://modrinth.com/mod/flower-seeds-2-fabulous-flowers
+- Simpleshops 1.2.2 https://www.curseforge.com/minecraft/mc-mods/simple-shops/files/all?page=1&pageSize=20&version=1.20.1
+- Better Fps - Render Distance[Forge] 1.20.1-4.4 https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance/files/5333766
+- Cupboard Forge 1.20.1-2.7 https://www.curseforge.com/minecraft/mc-mods/cupboard/files/5470032
+- Smoothchunk (install for solo players, or on server for multiplayer) https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save/files/5138123
+ 
+ And the following resource packs:
+- Tissou's Zombie Pack 1.20.1 -2.7 https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-20/files/all?page=1&pageSize=20&version=1.20.1
+- Blue's Better Cats V0.09 https://modrinth.com/resourcepack/mrblueyetis-better-cats
+- Better Dogs V0.41 https://modrinth.com/resourcepack/better-dogs
+- Better Rabbits https://www.curseforge.com/minecraft/texture-packs/better-rabbits/files/all?page=1&pageSize=20
+- Better Pigs V2 https://www.curseforge.com/minecraft/texture-packs/better-pigs/files/3869236
+- Duck Chicken Goose https://www.curseforge.com/minecraft/texture-packs/allfowl
