@@ -35,7 +35,6 @@ I play this modpack with the additional copyrighted mods:
 - Capybara 1.8.7 https://modrinth.com/mod/capybaras/versions
 - Fabulous flowers 1.1.0 (forge-1.20.1) https://www.curseforge.com/minecraft/mc-mods/fabulous-flowers/files/all?page=1&pageSize=20&version=1.20.1
 - Flower Seeds 2 - Fabulous Flowers 1.1.2 https://modrinth.com/mod/flower-seeds-2-fabulous-flowers
-- Simpleshops 1.2.2 https://www.curseforge.com/minecraft/mc-mods/simple-shops/files/all?page=1&pageSize=20&version=1.20.1
 - Better Fps - Render Distance[Forge] 1.20.1-4.4 https://www.curseforge.com/minecraft/mc-mods/better-fps-render-distance/files/5333766
 - Cupboard Forge 1.20.1-2.7 https://www.curseforge.com/minecraft/mc-mods/cupboard/files/5470032
 - Smoothchunk (install for solo players, or on server for multiplayer) https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save/files/5138123
