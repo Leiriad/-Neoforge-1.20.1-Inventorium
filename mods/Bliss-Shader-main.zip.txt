@@ -1,5 +1,0 @@
-#Wed Aug 28 11:52:39 CEST 2024
-LPV_ENABLED=true
-EMISSIVE_TYPE=2
-RESOURCEPACK_SKY=2
-Specular_Reflections=true

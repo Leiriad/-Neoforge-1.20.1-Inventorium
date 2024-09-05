@@ -1,14 +1,9 @@
 {
   "quality": {
     "weather_quality": "DEFAULT",
-<<<<<<< Updated upstream
-    "leaves_quality": "DEFAULT",
-    "enable_vignette": true
-=======
     "leaves_quality": "FANCY",
     "enable_vignette": true,
     "use_quad_normals_for_shading": false
->>>>>>> Stashed changes
   },
   "advanced": {
     "enable_memory_tracing": false,
