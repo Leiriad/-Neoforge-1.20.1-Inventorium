@@ -66,8 +66,8 @@
     "keyCode": 72,
     "keyType": "KEYBOARD",
     "alt": false,
-    "shift": true,
-    "ctrl": false
+    "shift": false,
+    "ctrl": true
   },
   "key.goety.lich.lichForm": {
     "keyCode": 47,
@@ -274,6 +274,27 @@
   },
   "key.drop": {
     "keyCode": 81,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.showstats.desc": {
+    "keyCode": 75,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.sethorse.desc": {
+    "keyCode": 80,
+    "keyType": "KEYBOARD",
+    "alt": false,
+    "shift": true,
+    "ctrl": false
+  },
+  "key.callhorse.desc": {
+    "keyCode": 72,
     "keyType": "KEYBOARD",
     "alt": false,
     "shift": true,

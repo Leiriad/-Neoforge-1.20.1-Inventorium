@@ -1,8 +1,14 @@
 {
   "quality": {
     "weather_quality": "DEFAULT",
+<<<<<<< Updated upstream
     "leaves_quality": "DEFAULT",
     "enable_vignette": true
+=======
+    "leaves_quality": "FANCY",
+    "enable_vignette": true,
+    "use_quad_normals_for_shading": false
+>>>>>>> Stashed changes
   },
   "advanced": {
     "enable_memory_tracing": false,
@@ -19,7 +25,7 @@
     "use_block_face_culling": true,
     "use_compact_vertex_format": true,
     "use_translucent_face_sorting_v2": true,
-    "use_no_error_g_l_context": true
+    "use_no_error_g_l_context": false
   },
   "notifications": {
     "force_disable_donation_prompts": false,

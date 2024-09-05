@@ -22,18 +22,24 @@
 	#(Requires relaunch)
 	[common.generatorsEnabled]
 		#.
-		#Enable cobblestone generator
+		#Enables the generator. When disabled, the generator is fully removed from the game. Make a backup before doing this.
 		cobblestoneGeneratorEnabled = true
 		#.
-		#Enable basalt generator
+		#Enables the generator. When disabled, the generator is fully removed from the game. Make a backup before doing this.
 		basaltGeneratorEnabled = true
 		#.
-		#Enable stone generator
+		#Enables the generator. When disabled, the generator is fully removed from the game. Make a backup before doing this.
 		stoneGeneratorEnabled = true
 		#.
-		#Enable limestone generator
+		#Enables the generator. When disabled, the generator is fully removed from the game. Make a backup before doing this.
 		limestoneGeneratorEnabled = true
 		#.
-		#Enable stone generator
+		#Enables the generator. When disabled, the generator is fully removed from the game. Make a backup before doing this.
 		scoriaGeneratorEnabled = true
+		#.
+		#Enables the generator. When disabled, the generator is fully removed from the game. Make a backup before doing this.
+		deepslateGeneratorEnabled = false
+		#.
+		#Enables the generator. When disabled, the generator is fully removed from the game. Make a backup before doing this.
+		cobbledDeepslateGeneratorEnabled = false
 

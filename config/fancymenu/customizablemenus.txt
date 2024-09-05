@@ -39,9 +39,6 @@ net.minecraft.client.gui.screens.LanguageSelectScreen {
 net.minecraft.client.gui.screens.ChatOptionsScreen {
 }
 
-net.minecraft.client.gui.screens.packs.PackSelectionScreen {
-}
-
 net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen {
 }
 
@@ -67,5 +64,8 @@ net.minecraft.client.gui.screens.LevelLoadingScreen {
 }
 
 net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 

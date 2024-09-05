@@ -54,7 +54,7 @@
   "snowSmoothShading": true,
   "snowChunkSize": 0,
   "blockSettings": {
-    "Physics Type": 0,
+    "Physics Type": 2,
     "Lifetime": 4.0,
     "Lifetime Variance": 3.0,
     "Scale": 1.0,
@@ -140,6 +140,10 @@
     "minecraft:the_end",
     0.0,
     -9.81,
+    0.0,
+    "capybaras:capymension",
+    0.0,
+    -9.81,
     0.0
   ],
   "customizedBuoyancies": [
@@ -152,6 +156,10 @@
     2.0,
     0.0,
     "minecraft:the_end",
+    0.0,
+    2.0,
+    0.0,
+    "capybaras:capymension",
     0.0,
     2.0,
     0.0
