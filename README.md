@@ -28,3 +28,20 @@ Inventorium Key Features:
 
 I made this project for personal use in the first place, but I'm happy if you enjoy it or even want to contribute. Feel free to ask for new things too. 
 I would only ask that the images (icons, logo, buttons, disks...) and the name of the modpack remain mine.
+<<<<<<< Updated upstream
+=======
+
+Optional:
+
+I play this modpack with the additional copyrighted mod:
+- Smoothchunk (install for solo players, or on server for multiplayer) https://www.curseforge.com/minecraft/mc-mods/smooth-chunk-save/files/5138123
+ 
+ And the following resource packs:
+- Tissou's Zombie Pack 1.20.1 -2.7 https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-pack-optifine-1-7x-1-20/files/all?page=1&pageSize=20&version=1.20.1
+- Blue's Better Cats V0.09 https://modrinth.com/resourcepack/mrblueyetis-better-cats
+- Better Dogs V0.41 https://modrinth.com/resourcepack/better-dogs
+- Better Rabbits https://www.curseforge.com/minecraft/texture-packs/better-rabbits/files/all?page=1&pageSize=20
+- Better Pigs V2 https://www.curseforge.com/minecraft/texture-packs/better-pigs/files/3869236
+- Duck Chicken Goose https://www.curseforge.com/minecraft/texture-packs/allfowl
+- Nature X (should replace Stay True - has to be under the above resource packs) https://modrinth.com/resourcepack/nature-x/version/8.0
+>>>>>>> Stashed changes
