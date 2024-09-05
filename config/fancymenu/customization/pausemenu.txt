@@ -50,12 +50,12 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  identifier = %id=504324%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = fancymenu_data/Buttons/btnmediumhover.png
-  backgroundnormal = fancymenu_data/Buttons/btnmedium.png
+  backgroundhovered = fancymenu_data/Buttons/btnxmhover.png
+  backgroundnormal = fancymenu_data/Buttons/btnxm.png
 }
 
 customization {

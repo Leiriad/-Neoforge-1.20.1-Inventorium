@@ -43,6 +43,13 @@ _version = 2
 			# NOTE:
 			# Before changing this config, try changing the "GPU Upload method" first.
 			gpuUploadPerMegabyteInMilliseconds = 0
+			# If true geometry data will be uploaded on a DH controlled thread, reducing FPS stuttering. 
+			# If false uploading will be done on Minecraft's main rendering thread. 
+			# 
+			# Setting this to false may reduce crashes or corrupted geometry on systems with an AMD GPU when Sodium is installed.
+			# 
+			# 
+			gpuUploadAsync = true
 
 		[client.advanced.lodBuilding]
 			#
@@ -101,6 +108,10 @@ _version = 2
 			# Increasing this value will reduce CPU load but may may cause 
 			# LODs to become outdated more frequently or for longer.
 			minTimeBetweenChunkUpdatesInSeconds = 1
+			# Determines if a message should be displayed in the chat when LOD migration starts. 
+			# 
+			# 
+			showMigrationChatWarning = true
 
 		[client.advanced.autoUpdater]
 			#
@@ -271,7 +282,7 @@ _version = 2
 			# DEFAULT: Default lod renderer 
 			# DEBUG: Debug testing renderer 
 			# DISABLED: Disable rendering
-			rendererMode = "DISABLED"
+			rendererMode = "DEFAULT"
 			#
 			# If enabled the LODs will render as wireframe.
 			renderWireframe = false
@@ -407,7 +418,7 @@ _version = 2
 				radius = "4.0"
 				#
 				# Enable Screen Space Ambient Occlusion
-				enabled = false
+				enabled = true
 
 			[client.advanced.graphics.advancedGraphics]
 				#
@@ -448,7 +459,7 @@ _version = 2
 				# Additional Info: Currently this cull all faces 
 				#  with skylight value of 0 in dimensions that 
 				#  does not have a ceiling.
-				enableCaveCulling = true
+				enableCaveCulling = false
 				#
 				# Identical to the other frustum culling option
 				# only used when a shader mod is present using the DH API
@@ -510,10 +521,10 @@ _version = 2
 				# 
 				# Lowest Quality: CHUNK
 				# Highest Quality: BLOCK
-				maxHorizontalResolution = "TWO_BLOCKS"
+				maxHorizontalResolution = "BLOCK"
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 128
+				lodChunkRenderDistanceRadius = 256
 				#
 				# Should the blocks underneath avoided blocks gain the color of the avoided block? 
 				# 
@@ -524,14 +535,14 @@ _version = 2
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "LOWEST"
+				horizontalQuality = "MEDIUM"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
 				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
-				transparency = "DISABLED"
+				transparency = "COMPLETE"
 				#
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 
@@ -539,7 +550,7 @@ _version = 2
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "HEIGHT_MAP"
+				verticalQuality = "MEDIUM"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -557,7 +568,7 @@ _version = 2
 				# FOG_DISABLED: Always draw fast fog on the LODs 
 				# 
 				# Disabling fog will improve GPU performance.
-				drawMode = "FOG_ENABLED"
+				drawMode = "USE_OPTIFINE_SETTING"
 				#
 				# What color should fog use? 
 				# 
@@ -707,7 +718,7 @@ _version = 2
 			# FEATURES 
 			# Generate everything except structures. 
 			# WARNING: This may cause world generator bugs or instability when paired with certain world generator mods.
-			distantGeneratorMode = "FEATURES"
+			distantGeneratorMode = "PRE_EXISTING_ONLY"
 			#
 			# How long should a world generator thread run for before timing out? 
 			# Note: If you are experiencing timeout errors it is better to lower your CPU usage first 
