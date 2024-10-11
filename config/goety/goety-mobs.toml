@@ -64,15 +64,11 @@
 	vexTeleport = true
 	#Whether Servants would naturally attack Witches or Warlocks if owner wears a full a robe that renders the former two neutral, Default: false
 	variousRobeWitch = false
-	#Whether creating a Redstone Monstrosity causes the mold to change blocks, Default: true
-	redstoneMonstrosityMold = true
 	#How many seconds it takes before Ravager can manually roar again, Default: 10
 	#Range: > 0
 	ravagerRoarCooldown = 10
 	#Whether Servants can attack Creepers if Mob Griefing Rule is False, Default: true
 	servantsAttackCreepers = true
-	#Whether creating a Redstone Golem causes the mold to change blocks, Default: true
-	redstoneGolemMold = true
 	#Whether Redstone Monstrosity breaks leaves and certain blocks if mob griefing is enabled, Default: true
 	redstoneMonstrosityLeafBreak = true
 	#Servants, when on staying mode, will load chunks around it, Default: true
@@ -80,6 +76,10 @@
 	#How far servants can patrol from their patrol location, Default: 16
 	#Range: > 2
 	servantPatrolRange = 16
+	#Whether creating a Redstone Golem causes the mold to change blocks, Default: true
+	redstoneGolemMold = true
+	#Whether creating a Redstone Monstrosity causes the mold to change blocks, Default: true
+	redstoneMonstrosityMold = true
 
 	[Servants."Nether Servants"]
 		#How much Health Nether Servants heal, numerically, Default: 0.5
@@ -183,34 +183,34 @@
 		illagerAssaultThreshold = 2500
 
 	[Illagers.Raid]
-		#Whether Preachers appear in Raids, Default: true
-		preacherRaid = true
-		#Whether Conquillagers appear in Raids, Default: true
-		conquillagerRaid = true
+		#Whether Modded Illagers appears in Raids, Default: true
+		specialIllagerRaid = true
+		#Whether Armored Ravagers spawn in Raids, Default: true
+		armoredRavagerRaid = true
 		#Whether Pikers appear in Raids, Default: true
 		pikerRaid = true
 		#Whether Rippers appear in Raids. They do not count as part of the Raid bar, Default: true
 		ripperRaid = true
-		#Whether Enviokers appear in Raids, Default: true
-		enviokerRaid = true
-		#Whether Inquillagers appear in Raids, Default: true
-		inquillagerRaid = true
-		#Whether Hostile Redstone Golems appear in Raids, Default: false
-		hostileRedstoneGolemRaid = false
 		#Whether Crushers appear in Raids, Default: true
 		crusherRaid = true
-		#Whether Warlocks appear in Raids, Default: true
-		warlockRaid = true
-		#Whether Modded Illagers appears in Raids, Default: true
-		specialIllagerRaid = true
-		#Whether Cryologers appear in Raids, Default: true
-		cryologerRaid = true
-		#Whether Armored Ravagers spawn in Raids, Default: true
-		armoredRavagerRaid = true
 		#Whether Storm Casters appear in Raids, Default: true
 		stormCasterRaid = true
+		#Whether Cryologers appear in Raids, Default: true
+		cryologerRaid = true
+		#Whether Preachers appear in Raids, Default: true
+		preacherRaid = true
+		#Whether Conquillagers appear in Raids, Default: true
+		conquillagerRaid = true
+		#Whether Inquillagers appear in Raids, Default: true
+		inquillagerRaid = true
+		#Whether Enviokers appear in Raids, Default: true
+		enviokerRaid = true
 		#Whether Ministers appear in Raids, Default: true
 		ministerRaid = true
+		#Whether Hostile Redstone Golems appear in Raids, Default: false
+		hostileRedstoneGolemRaid = false
+		#Whether Warlocks appear in Raids, Default: true
+		warlockRaid = true
 
 [Textures]
 	#If certain mobs have a different texture during some holiday months, Default: true

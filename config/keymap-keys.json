@@ -76,13 +76,6 @@
     "shift": false,
     "ctrl": false
   },
-  "keys.vampirism.action": {
-    "keyCode": 46,
-    "keyType": "KEYBOARD",
-    "alt": false,
-    "shift": true,
-    "ctrl": false
-  },
   "iris.keybind.shaderPackSelection": {
     "keyCode": 79,
     "keyType": "KEYBOARD",

@@ -137,7 +137,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfLodBuilderThreads = 2
+			numberOfLodBuilderThreads = 3
 			#
 			# Should only be disabled if deadlock occurs and LODs refuse to update. 
 			# This will cause CPU usage to drastically increase for the Lod Builder threads. 
@@ -151,7 +151,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForWorldGenerationThreads = "0.5"
+			runTimeRatioForWorldGenerationThreads = "0.75"
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -159,7 +159,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForLodBuilderThreads = "0.25"
+			runTimeRatioForLodBuilderThreads = "0.5"
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -167,7 +167,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForFileHandlerThreads = "0.5"
+			runTimeRatioForFileHandlerThreads = "1.0"
 			#
 			# If this value is less than 1.0, it will be treated as a percentage 
 			# of time each thread can run before going idle. 
@@ -175,7 +175,7 @@ _version = 2
 			# This can be used to reduce CPU usage if the thread count 
 			# is already set to 1 for the given option, or more finely 
 			# tune CPU performance.
-			runTimeRatioForUpdatePropagatorThreads = "0.25"
+			runTimeRatioForUpdatePropagatorThreads = "0.5"
 			#
 			# How many threads should be used when reading/writing LOD data to/from disk? 
 			# 
@@ -187,7 +187,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfFileHandlerThreads = 2
+			numberOfFileHandlerThreads = 3
 			#
 			# How many threads should be used when applying LOD updates? 
 			# An LOD update is the operation of down-sampling a high detail LOD 
@@ -206,7 +206,7 @@ _version = 2
 			# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 			# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 			# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-			numberOfUpdatePropagatorThreads = 2
+			numberOfUpdatePropagatorThreads = 3
 			#
 			# How many threads should be used when generating LOD 
 			# chunks outside the normal render distance? 
@@ -418,7 +418,7 @@ _version = 2
 				radius = "4.0"
 				#
 				# Enable Screen Space Ambient Occlusion
-				enabled = true
+				enabled = false
 
 			[client.advanced.graphics.advancedGraphics]
 				#
@@ -448,7 +448,7 @@ _version = 2
 				# 0 = black 
 				# 1 = normal 
 				# 2 = near white
-				brightnessMultiplier = "1.0"
+				brightnessMultiplier = "0.85"
 				#
 				# If enabled caves will be culled 
 				# 
@@ -530,19 +530,19 @@ _version = 2
 				# 
 				# True: a red flower will tint the grass below it red. 
 				# False: skipped blocks will not change color of surface below them.
-				tintWithAvoidedBlocks = true
+				tintWithAvoidedBlocks = false
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "MEDIUM"
+				horizontalQuality = "LOW"
 				#
 				# How should LOD transparency be handled. 
 				# 
 				# COMPLETE: LODs will render transparent. 
 				# FAKE: LODs will be opaque, but shaded to match the blocks underneath. 
 				# DISABLED: LODs will be opaque.
-				transparency = "COMPLETE"
+				transparency = "DISABLED"
 				#
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 
@@ -550,7 +550,7 @@ _version = 2
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "MEDIUM"
+				verticalQuality = "LOW"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
@@ -568,13 +568,13 @@ _version = 2
 				# FOG_DISABLED: Always draw fast fog on the LODs 
 				# 
 				# Disabling fog will improve GPU performance.
-				drawMode = "USE_OPTIFINE_SETTING"
+				drawMode = "FOG_ENABLED"
 				#
 				# What color should fog use? 
 				# 
 				# USE_WORLD_FOG_COLOR: Use the world's fog color. 
 				# USE_SKY_COLOR: Use the sky's color.
-				colorMode = "USE_WORLD_FOG_COLOR"
+				colorMode = "USE_SKY_COLOR"
 				#
 				# Should Minecraft's fog be disabled? 
 				# 
@@ -600,7 +600,7 @@ _version = 2
 					# 
 					# 0.0: No fog. 
 					# 1.0: Fully opaque fog.
-					farFogMin = "0.3"
+					farFogMin = "0.0"
 					#
 					# How should the fog thickness should be calculated? 
 					# 
@@ -638,7 +638,7 @@ _version = 2
 						heightFogMode = "ABOVE_AND_BELOW_CAMERA"
 						#
 						# If the height fog is calculated around a set height, what is that height position?
-						heightFogBaseHeight = "30.0"
+						heightFogBaseHeight = "70.0"
 						#
 						# What is the maximum fog thickness? 
 						# 

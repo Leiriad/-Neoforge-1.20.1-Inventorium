@@ -5,7 +5,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -16,7 +16,7 @@ showSubtitles:false
 directionalAudio:false
 touchscreen:false
 fullscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -31,18 +31,18 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:8
-simulationDistance:17
-entityDistanceScaling:1.0
+renderDistance:5
+simulationDistance:8
+entityDistanceScaling:0.75
 guiScale:0
 particles:0
 maxFps:120
 graphicsMode:1
 ao:true
 prioritizeChunkUpdates:0
-biomeBlendRadius:2
+biomeBlendRadius:1
 renderClouds:"true"
-resourcePacks:["builtin/dramaticdoors_resource_pack","vanilla","mod_resources","builtin/farmersdelight_resource_pack","builtin/alexcaves_resource_pack","Moonlight Mods Dynamic Assets","create:destroy_create_patches","fabric","continuity:default","create:legacy_copper","continuity:glass_pane_culling_fix","file/Stay_True_1.21.zip","Baby-Villagers-v1.0-1.20+.zip","Dramatic Skys Demo 1.5.3.24.zip","Fancy Crops v1.0 f5-34.zip","MickeyJoesFlowers.zip","Os\u0027 Shimmering Ores.zip","Round-Trees-7.1-1.19+.zip","Simple Grass Flowers v1.8.1.zip","xali\u0027s Enchanted Books v0.12.0.zip","xali\u0027s Potions v1.0.zip"]
+resourcePacks:["builtin/dramaticdoors_resource_pack","vanilla","mod_resources","builtin/farmersdelight_resource_pack","builtin/alexcaves_resource_pack","Moonlight Mods Dynamic Assets","create:destroy_create_patches","fabric","continuity:default","create:legacy_copper","continuity:glass_pane_culling_fix","file/Stay_True_1.21.zip","file/Dramatic Skys Demo 1.5.3.24.zip","Baby-Villagers-v1.0-1.20+.zip","Fancy Crops v1.0 f5-34.zip","file/Os\u0027 Shimmering Ores.zip","MickeyJoesFlowers.zip","file/Round-Trees-7.1-1.19+.zip","Simple Grass Flowers v1.8.1.zip","xali\u0027s Enchanted Books v0.12.0.zip","xali\u0027s Potions v1.0.zip","Eyeless Fresh Moves v3.0.1.zip","FreshAnimations_v1.9.2.zip","Luminous1.4.zip","Rekindled_CTM.zip"]
 incompatibleResourcePacks:[]
 lastServer:localhost
 lang:fr_fr
@@ -63,7 +63,7 @@ chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
 notificationDisplayTime:1.0
-mipmapLevels:4
+mipmapLevels:1
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
@@ -169,11 +169,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.spells_and_shields.key.slot_1:key.keyboard.unknown
 key_key.spells_and_shields.key.slot_2:key.keyboard.unknown
 key_key.spells_and_shields.key.slot_3:key.keyboard.unknown
@@ -208,15 +208,15 @@ key_keys.vampirism.select_skills:key.keyboard.unknown
 key_keys.vampirism.vision:key.keyboard.n
 key_keys.vampirism.minion_task:key.keyboard.unknown
 key_keys.vampirism.select_ammo:key.keyboard.unknown
-key_keys.vampirism.action1:key.keyboard.unknown:ALT
-key_keys.vampirism.action2:key.keyboard.unknown:ALT
 key_keys.vampirism.action3:key.keyboard.unknown:ALT
-key_keys.vampirism.action4:key.keyboard.unknown
-key_keys.vampirism.action5:key.keyboard.unknown
-key_keys.vampirism.action6:key.keyboard.unknown
-key_keys.vampirism.action7:key.keyboard.unknown
-key_keys.vampirism.action8:key.keyboard.unknown
+key_keys.vampirism.action2:key.keyboard.unknown:ALT
+key_keys.vampirism.action1:key.keyboard.unknown:ALT
 key_keys.vampirism.action9:key.keyboard.unknown
+key_keys.vampirism.action8:key.keyboard.unknown
+key_keys.vampirism.action7:key.keyboard.unknown
+key_keys.vampirism.action6:key.keyboard.unknown
+key_keys.vampirism.action5:key.keyboard.unknown
+key_keys.vampirism.action4:key.keyboard.unknown
 key_key.ars_nouveau.open_book:key.keyboard.unknown:ALT
 key_key.ars_nouveau.selection_hud:key.keyboard.unknown:ALT
 key_key.ars_nouveau.next_slot:key.keyboard.unknown:ALT
@@ -288,7 +288,6 @@ key_key.l2mods.right:key.keyboard.right
 key_key.l2mods.swap:key.keyboard.right.control
 key_keu.l2mods.shift:key.keyboard.right.alt
 key_keu.l2mods.alt:key.keyboard.unknown
-key_key.pickup.item:key.keyboard.unknown
 key_key.goety.wand:key.keyboard.z
 key_key.goety.focusCircle:key.keyboard.x
 key_key.goety.bag:key.keyboard.unknown

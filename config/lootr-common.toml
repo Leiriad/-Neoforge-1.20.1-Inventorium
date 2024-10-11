@@ -30,7 +30,7 @@ modid_dimension_blacklist = []
 #othermod"])
 modid_dimension_whitelist = []
 #list of loot tables which shouldn't be converted (in the format of ["modid:loot_table", "othermodid:other_loot_table"])
-loot_table_blacklist = []
+loot_table_blacklist = ["hauntedharvest:blocks/green_jack_o_lantern", "items_displayed:blocks/gothic_upgrade", "items_displayed:blocks/allurite_shard", "items_displayed:blocks/kobold_armor_trim", "createcobblestone:blocks/cobbled_deepslate_generator", "items_displayed:blocks/guster_pottery_sherd", "items_displayed:blocks/necro_armor_trim", "hauntedharvest:blocks/soul_jack_o_lantern", "items_displayed:blocks/silver_ingot", "items_displayed:blocks/scrape_pottery_sherd", "hauntedharvest:blocks/redstone_jack_o_lantern", "createcobblestone:blocks/deepslate_generator", "items_displayed:blocks/flow_pottery_sherd", "blahaj:blocks/blahaj_backpack", "items_displayed:blocks/lumiere_shard", "hauntedharvest:blocks/ender_jack_o_lantern", "items_displayed:blocks/bolt_armor_trim"]
 #list of modids whose loot tables shouldn't be converted (in the format of ["modid", "other_modid"])
 loot_modid_blacklist = []
 #prevent the destruction of Lootr chests except while sneaking in creative mode
